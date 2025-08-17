@@ -1,0 +1,10 @@
+.btn {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    &.btn-primary {
+        @include button-style($primary-color, white);
+    }
+    &.btn-secondary {
+        @include button-style($secondary-color, white);
+    }
+}
